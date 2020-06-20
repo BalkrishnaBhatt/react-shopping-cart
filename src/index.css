@@ -1,16 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 .box{
   display: flex;
   justify-content: space-between;
@@ -24,8 +12,16 @@ code {
   width: 300px;
 }
 .card .card-image .card-title{
-  color: black;
-  font-weight: 400
+  color: #00B2EE  !important;
+  font-weight: bold;
+  font-family: cursive;
+}
+.card .card-content{
+  display: flex;
+  padding: 18px !important;
+  height: 200px !important;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .cart{
   margin-top:40px;
