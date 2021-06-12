@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "axios": "^0.19.2",
+    "font-awesome": "^4.7.0",
     "react": "^16.6.3",
     "react-axios": "^2.0.3",
     "react-dom": "^16.6.3",

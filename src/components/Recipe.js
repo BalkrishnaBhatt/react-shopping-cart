@@ -3,10 +3,10 @@ import { connect } from 'react-redux'
 //import { addShipping } from './actions/cartActions'
 class Recipe extends Component{
     
-    componentWillUnmount() {
-         if(this.refs.shipping.checked)
-              this.props.substractShipping()
-    }
+    // componentWillUnmount() {
+    //      if(this.refs.shipping.checked)
+    //           this.props.substractShipping()
+    // }
 
     handleChecked = (e)=>{
         if(e.target.checked){
@@ -23,10 +23,10 @@ class Recipe extends Component{
             <div className="container">
                 <div className="collection">
                     <li className="collection-item"> 
-                            <label>
+                            {/* <label>
                                 <input type="checkbox" ref="shipping" onChange= {this.handleChecked} />
                                 <span>Shipping(+6$)</span>
-                            </label>
+                            </label> */}
                         </li>
                         <li className="collection-item"><b>Total: {this.props.total} $</b></li>
                     </div>
