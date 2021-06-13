@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/react-shopping-cart/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/react-shopping-cart/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/react-shopping-cart/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/react-shopping-cart/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "bbcfc86be1b8c9bbdc1f567fd516b1aa",
